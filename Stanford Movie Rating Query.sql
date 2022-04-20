@@ -41,4 +41,6 @@ JOIN Rating a using (mID)
 JOIN Rating b using (mID)
 JOIN Reviewer  using (rID )
 WHERE (a.rID = b.rID and a.mID = b.mID and a.ratingDate > b.ratingDate and a.stars > b.stars); 
-		  
+	
+q7
+
